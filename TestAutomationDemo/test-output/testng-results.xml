@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5630" started-at="2023-01-01T16:22:45 IST" finished-at="2023-01-01T16:22:50 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestAutomationDemo.Runner.TestRunner@71c8becc]" name="feature" class="com.TestAutomationDemo.Runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="5630" started-at="2023-01-01T16:22:45 IST" finished-at="2023-01-01T16:22:50 IST">
+      <class name="com.TestAutomationDemo.Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.TestAutomationDemo.Runner.TestRunner@71c8becc]" name="setUpClass" is-config="true" duration-ms="234" started-at="2023-01-01T16:22:45 IST" finished-at="2023-01-01T16:22:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestAutomationDemo.Runner.TestRunner@71c8becc]" name="feature" duration-ms="5087" started-at="2023-01-01T16:22:45 IST" description="Runs cucmber Features" data-provider="features" finished-at="2023-01-01T16:22:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Backend Automation using Java and Serenity Rest Assured]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.TestAutomationDemo.Runner.TestRunner@71c8becc]" name="testDownClass" is-config="true" duration-ms="205" started-at="2023-01-01T16:22:50 IST" finished-at="2023-01-01T16:22:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- com.TestAutomationDemo.Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
